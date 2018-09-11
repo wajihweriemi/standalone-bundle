@@ -1,0 +1,41 @@
+{
+    "name": "wajihweriemi/standalone-bundle",
+    "description": "Symfony 3.4.* Standalone Bundle",
+    "type": "bundle",
+    "require": {
+        "php": ">=7.0",
+        "symfony/http-kernel": "3.4.*",
+        "symfony/dependency-injection": "3.4.*",
+        "symfony/event-dispatcher": "3.4.*",
+        "symfony/http-foundation": "3.4.*",
+        "symfony/routing": "3.4.*",
+        "symfony/yaml": "3.4.*",
+        "symfony/config": "3.4.*",
+        "symfony/cache": "3.4.*",
+        "symfony/finder": "3.4.*",
+        "symfony/filesystem": "3.4.*",
+        "symfony/console": "3.4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\StandaloneBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Acme\\StandaloneBundle\\Tests\\": "tests/",
+            "Acme\\StandaloneBundle\\App\\": "app/"
+        }
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "3.4.*",
+        "symfony/browser-kit": "3.4.*",
+        "symfony/dom-crawler": "3.4.*",
+        "symfony/debug": "3.4.*",
+        "kint-php/kint": "^2.2",
+        "symfony/process": "3.4.*",
+        "symfony/web-server-bundle": "3.4.*",
+        "symfony/phpunit-bridge": "3.4.*",
+        "squizlabs/php_codesniffer": "^3.3"
+    }
+}

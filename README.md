@@ -1,2 +1,2 @@
 # standalone-bundle
-A standalone bundle skeleton/boilerplate
+A Symfony 3.4.* standalone bundle skeleton/boilerplate

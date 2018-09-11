@@ -1,0 +1,6 @@
+framework:
+    secret: "This is a secret, change me"
+    router:
+        resource: '%kernel.root_dir%/config/routing.yml'
+        strict_requirements: ~
+    test: ~

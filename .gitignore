@@ -1,1 +1,5 @@
-
+/vendor
+/var
+/build
+/web/*
+!web/app_dev.php

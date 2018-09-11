@@ -1,0 +1,3 @@
+_main:
+    resource: "../../src/Resources/config/routing.yml"
+    prefix:   "/"
