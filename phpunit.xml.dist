@@ -12,7 +12,7 @@
     </php>
 
     <testsuites>
-        <testsuite name="AcmeStandaloneBundle Suite">
+        <testsuite name="AcmeStandaloneBundle Test Suite">
             <directory suffix="Test.php">./tests/</directory>
         </testsuite>
     </testsuites>
